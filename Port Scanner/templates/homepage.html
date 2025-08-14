@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta  http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Port Scanner</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="scanner">
+            <h1>Web-Based Port Scanner</h1>
+            <input type="text" id="ip" placeholder="Enter the IP Address...">
+            <br>
+            <button onclick="startScan()">Scan</button>
+            <div class="loader" id="loader">Scanning...</div>
+            <table id="resultTable" style="display:none;">
+                <thead><tr><th>Open Ports</th></tr></thead>
+                <tbody id="results"></tbody>
+            </table>
+        </div>
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+</html>
