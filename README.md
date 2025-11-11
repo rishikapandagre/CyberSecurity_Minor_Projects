@@ -1,6 +1,6 @@
 # CyberSecurity_Minor_Projects
 
-his repository contains three small educational cybersecurity projects implemented primarily in Python. They are intended for learning, research, and defensive purposes only.
+This repository contains three small educational cybersecurity projects implemented primarily in Python. They are intended for learning, research, and defensive purposes only.
 ⚠️ Important — Legal & Ethical Notice: Use these tools only on systems and data you own or for which you have explicit written authorization. Unauthorized scanning, cracking, or phishing activity is illegal and unethical. By using code from this repository you agree to follow applicable laws and institutional policies.
 
 Projects Overview
